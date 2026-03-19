@@ -1,0 +1,21 @@
+[project]
+name = "ats-backend"
+version = "1.0.0"
+description = "Applicant Tracking System Backend"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aioodbc>=0.5.0",
+    "aiosqlite>=0.21.0",
+    "fastapi[standard]>=0.123.0",
+    "httpx>=0.28.0",
+    "pydantic-settings>=2.12.0",
+    "pymupdf>=1.26.6",
+    "python-dateutil>=2.9.0.post0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.1",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.20",
+    "sqlalchemy[asyncio]>=2.0.0",
+    "uvicorn[standard]>=0.38.0",
+]

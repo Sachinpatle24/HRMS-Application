@@ -1,0 +1,37 @@
+# Dependencies
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Build
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# uv
+uv.lock
